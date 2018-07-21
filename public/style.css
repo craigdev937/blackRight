@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
 
 body {
-    background-color: #312b30;
+    background-color: #000;
+    color: #fff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #banner {
     background-color: #63aebb;
     font-family: 'Black Han Sans', sans-serif;
+    color: #000;
     padding: 20px;
     font-size: 4em;
 }
 
-.left {
-    background-color: yellow;
+/* .left {
+    background-color: yellow; 
 }
 
 .center {
@@ -22,7 +24,7 @@ body {
 
 .right {
     background-color: blue;
-}
+} */
 
 /* Mobile Version */
 @media screen and (min-width: 530px) {

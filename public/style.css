@@ -27,11 +27,11 @@ body {
 } */
 
 /* Mobile Version */
-@media screen and (min-width: 530px) {
+@media screen and (min-width: 768px) {
     .container {
         display: grid;        
         grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 2px;
+        grid-column-gap: 16px;
         height: 400px;
         grid-template-areas: 
             "left left left"
